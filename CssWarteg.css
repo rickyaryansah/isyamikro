@@ -1,0 +1,102 @@
+body {
+    line-height: 1;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote,q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*style*/
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 35px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(187, 4, 4);
+}
+
+.hero {
+    height: 300px;
+    background-image: url(0319_041158_66b0_inilah.com_.webp);
+    background-size: cover;
+    background-position: 0 -180px;
+    margin-left: 35px;
+    margin-right: 28px;
+}
+
+.header p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.content p {
+    padding-left: 35px;
+    padding-right: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.content .subjudul1 {
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-bottom: 0;
+    color: rgb(187, 4, 4);
+}
+
+.content h4{
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-bottom: 0px;
+}
+
+.content .poin5 p {
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 3px;
+}
+
+.content span {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.atas {
+    background-color: #333;
+    padding: 3px;
+}
